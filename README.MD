@@ -11,10 +11,8 @@
 
 ## How should we do it?
 
-- Check to see if it’s a list or a string
-- If it’s a list we skip the next few steps
-- If it’s a string we map the string
-- Iterate through the list and add letters to new list
+- Empty list
+- Iterate through the argument and add letters to new list
 - Set up conditional that peeks at the next index
 - If next index is equal to current index, then it won’t add letter to new list, if not, add to list
-- As it’s case sensitive we need to use `===` operator
+- As it’s case sensitive we need to use `===` or `!==` operators
